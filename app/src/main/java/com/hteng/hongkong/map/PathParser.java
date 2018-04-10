@@ -5,15 +5,14 @@ import android.util.Log;
 
 import java.util.ArrayList;
 
-
 /**
+ * Created by jimmyzhang on 2018/4/10.
  * path 路径解析兼容类（兼容标准svg）
  */
+
 public class PathParser {
 
     private static final String LOG_TAG = "PathParser";
-
-// Copy from Arrays.copyOfRange() which is only available from API level 9.
 
     /**
      * Copies elements from {@code original} into a new array, from indexes start (inclusive) to
@@ -25,8 +24,8 @@ public class PathParser {
      * @param start    the start index, inclusive
      * @param end      the end index, exclusive
      * @return the new array
-     * @throws IllegalArgumentException       if {@code start > end}
-     * @throws NullPointerException           if {@code original == null}
+     * @throws IllegalArgumentException if {@code start > end}
+     * @throws NullPointerException     if {@code original == null}
      */
     private static float[] copyOfRange(float[] original, int start, int end) {
         if (start > end) {

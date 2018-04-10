@@ -8,7 +8,8 @@ import android.graphics.RectF;
 import android.graphics.Region;
 
 /**
- * Created by baby on 2017/5/31.
+ * Created by jimmyzhang on 2018/4/10.
+ * path 路径解析兼容类（兼容标准svg）
  */
 
 public class ProviceItem {
